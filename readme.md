@@ -1,8 +1,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![technology - React](https://img.shields.io/badge/React-orange) ![technology - JS](https://img.shields.io/badge/JavaScript-yellow)
 
-# Livros
+# Tudo Que Não Te Contam Sobre Livros
 
-Livros
+Projeto trilíngue de uma página que fala sobre livros
 
 ## Tecnologias
 

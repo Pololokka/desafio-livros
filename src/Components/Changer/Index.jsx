@@ -11,21 +11,24 @@ const Changer = ({ titlePath, lang1Path, lang2Path, lang3Path }) => {
   return (
     <div className="changer__container">
       <p className="texto">{t(titlePath)}</p>
-      <p
-        className="texto texto-hover"
+      <input
+        type="button"
+        value={t(lang1Path)}
+        className="texto btn__geral"
         onClick={() => handleChangeLang("pt-BR")}
-      >
-        {t(lang1Path)}
-      </p>
-      <p
-        className="texto texto-hover"
+      />
+      <input
+        type="button"
+        value={t(lang2Path)}
+        className="texto btn__geral"
         onClick={() => handleChangeLang("en-us")}
-      >
-        {t(lang2Path)}
-      </p>
-      <p className="texto texto-hover" onClick={() => handleChangeLang("es")}>
-        {t(lang3Path)}
-      </p>
+      />
+      <input
+        type="button"
+        value={t(lang3Path)}
+        className="texto btn__geral"
+        onClick={() => handleChangeLang("es")}
+      />
     </div>
   );
 };

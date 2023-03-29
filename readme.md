@@ -15,7 +15,7 @@ Projeto trilíngue de uma página que fala sobre livros
 
 ### Home
 
-Página onde o usuário realiza suas interações
+Página onde o usuário pode ler as informações, e trocar a língua de exibição.
 
 ## Sobre
 

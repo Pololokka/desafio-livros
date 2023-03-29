@@ -23,7 +23,9 @@ const Changer = ({ titlePath, lang1Path, lang2Path, lang3Path }) => {
       >
         {t(lang2Path)}
       </p>
-      {/* <p className="texto texto-hover" onClick={() => handleTranslate("pt-br")} >Português</p> */}
+      <p className="texto texto-hover" onClick={() => handleChangeLang("es")}>
+        {t(lang3Path)}
+      </p>
     </div>
   );
 };
